@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.segunda{
+    width: 100%;
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+video{
+    position: absolute;
+   
+  
+    width: auto;
+    height: auto;
+    z-index: 0;
+    
+    opacity: 50%;
+}
+
+.margin{
+    margin-top: 200px;
+}
+
+
