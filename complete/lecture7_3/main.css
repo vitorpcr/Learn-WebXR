@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
- html{
+ html,body{
+   
+    overflow-x: hidden;
     margin: 0;
  }
 .segunda{
     width: 100%;
-    background-color: rgb(39, 84, 124);
-    height: 100vh;
+    background-color: rgb(38, 38, 44);
+    height: 112.4vh;
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -32,14 +34,7 @@
     text-align: center;
 }
 
-.menu{
-    border: 2px solid rgb(240, 233, 233);
-    background-color: transparent;
-   border-radius: 20px;
-}
-.menu img{
-    
-}
+
 
 .link{
     color: aliceblue;
@@ -65,15 +60,13 @@ video{
     overflow-x: hidden;
     position: absolute;
     width: auto;
-    height: 100%;
+    height: auto;
     z-index: 0;
-    
-    opacity: 40%;
+    background-color: rgb(80, 73, 73);
+    opacity: 80%;
 }
 
-.margin{
-    margin-top: 200px;
-}
+
 
 .header{
     background-color: rgb(53, 48, 48);
@@ -83,5 +76,77 @@ video{
     
     color: rgb(238, 230, 230);
     background-color: transparent;
+}
+
+.cadeira-ar{
+    height: 60vh;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.bloco-ar{
+   
+    margin: auto;
+    width: 900px;
+    height: 100%;
+    
+}
+
+.cadeira-ar img{
+    border-radius: 20px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.view-ar{
+    
+    
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 750px;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.view-ar h1{
+    margin-bottom: 20px;
+}
+
+.view-link{
+    font-size: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 200px;
+    background-color: black;
+}
+
+.view-ar a{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.view-ar a:hover{
+    color: rgb(122, 140, 155);
+}
+
+.menu-products{
+    margin-top: 100px;
+    background-color: blueviolet;
+}
+
+canvas{
+    height: 100px;
+    width: 100px;
+    visibility: hidden;
+}
+
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after {
+    visibility:hidden;
 }
 
