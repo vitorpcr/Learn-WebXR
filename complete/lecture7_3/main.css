@@ -69,11 +69,11 @@ video{
 
 
 .header{
-    background-color: rgb(53, 48, 48);
+    background-color: rgb(8, 7, 7);
     
 }
 .header a{
-    
+    margin-left: 30px;
     color: rgb(238, 230, 230);
     background-color: transparent;
 }
@@ -194,24 +194,35 @@ canvas{
 }
 
 .menu-blocks{
-    margin: auto;
-    padding: 50px;
-    border-radius: 20px;
-    background-color: rgb(27, 27, 29);
+    
+    margin: 50px;
+    
+   
 }
 .menu-blocks a, p, h5{
     color: rgb(253, 254, 255);
 }
 
 .card-menu{
-    
+    border-radius: 20px;
+    background-color: rgb(34, 37, 39);
 }
 
 .texto-produtos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(56, 52, 59);
     text-align: center;
     color: aliceblue;
     font-size: 25px;
+    
 }
+.texto-produtos h1{
+    margin-top: 30px;
+}
+
+.
 
 
 
