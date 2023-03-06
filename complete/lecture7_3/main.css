@@ -54,6 +54,10 @@ body{
     color: rgb(236, 238, 240);
     text-decoration: none;
 }
+.link a:hover{
+    font-size: 22px;
+    color: aliceblue;
+}
 
 video{
     
@@ -102,6 +106,13 @@ video{
     height: 100%;
     
 }
+.bloco-ar2{
+   
+    margin: auto;
+    width: 900px;
+    height: 100%;
+    
+}
 
 .cadeira-ar img{
     
@@ -115,13 +126,16 @@ video{
     
     
     margin-top: 100px;
-    
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 750px;
     height: 350px;
     border-radius: 10px;
     
 }
 .view-ar h1{
+
+    font-weight: 800;
     margin-bottom: 20px;
 }
 
@@ -222,7 +236,99 @@ canvas{
     margin-top: 30px;
 }
 
-.
+@media (max-width: 560px){
+    .segunda{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+    }
+    video{
+        background-color: black;
+        width: auto;
+        height: 500px;
+        opacity: 50%;
+    }
+    .bloco{
+        
+       
+       
+       
+        height: 100%;
+        width: 100%;
+    }
+    .tittle h1{
+        margin: auto;
+        width: 80%;
+        font-size: 30px;
+    }
+    .link{
+        width: 200px;
+    }
+    .cadeira-ar{
+        width: 100%;
+        height: 600px;
+        
+        margin: auto;
+    }
+  
+   
+    .bloco-ar2{
+        width: 500px;
+        height: 400px;
+    }
+    .bloco-ar2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .bloco-ar{
+        display: none;
+        visibility: hidden;
+    }
+    .view-ar{
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .view-ar h1{
+        
+        margin: auto;
+        width: 200px;
+        font-size: 30px;
+        text-align: left;
+    }
+    .view-link{
+        width: 150px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .slide-menu{
+        flex-direction: column;
+        background-color: rgb(29, 27, 27);
+        height: 600px;
+    }
+    .carrosel{
+        height: 700px;
+    }
+    .titulo-menu{
+        margin: auto;
+        width: auto;
+        height: 100%;
+        
+    }
+    .titulo-menu h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .menu-blocks{
+        margin-top: 10px;
+    }
+    .menu-blocks h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
 
 
 
