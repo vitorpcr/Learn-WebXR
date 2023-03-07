@@ -38,7 +38,7 @@ body{
 
 .link{
     color: aliceblue;
-    background-color: rgb(48, 42, 42);
+    background-color: rgb(26, 24, 24);
     border-radius: 20px;
     width: 300px;
     height: 50px;
@@ -307,8 +307,8 @@ canvas{
   
    
     .bloco-ar2{
-        width: 500px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
     }
     .bloco-ar2 img{
         width: 100%;
@@ -319,7 +319,7 @@ canvas{
         visibility: hidden;
     }
     .view-ar{
-        width: 100%;
+       
         margin: auto;
         position: relative;
     }
@@ -371,7 +371,7 @@ canvas{
     }
     .bloco-vendas{
       
-        height: 90%;
+        height: auto;
         width: 90%;
     }
     .mv1
