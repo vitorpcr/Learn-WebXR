@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important;
     
-}
-body{
-    background-color: black;
 }
 
 .segunda{
@@ -24,7 +22,7 @@ body{
     background-color: transparent;
     position: relative;
     width: 50%;
-    height: 500px;
+    height: 60%;
     
 }
 
@@ -97,7 +95,7 @@ video{
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: rgb(222, 255, 245);
+   background-color: rgb(233, 233, 233);
     height: 70vh;
 }
 .bloco-vendas{
@@ -152,7 +150,7 @@ video{
     
     border-radius: 20px;
     margin: auto;
-    width: 500px;
+    width: 400px;
     height: 500px;
 }
 
@@ -168,21 +166,25 @@ video{
     
 }
 .view-ar h1{
-
-    font-weight: 800;
-    margin-bottom: 20px;
+  
+    
+    font-size: 50px;
+   
 }
 
 .view-link{
+    
     font-size: 20px;
     border-radius: 20px;
     margin: auto;
     width: 200px;
+    margin-top: 40px;
+    
     background-color: black;
 }
 
 .view-ar a{
-    font-size: 20px;
+   
     color: aliceblue;
 }
 
@@ -231,11 +233,7 @@ video{
     margin-top: 100px;
 }
 
-canvas{
-    height: 100px;
-    width: 100px;
-    display: block;
-}
+
 
 .__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after {
     visibility:hidden;
@@ -243,7 +241,7 @@ canvas{
 
 .menu-blocks{
     
-    margin: 50px;
+    margin: 30px 50px 30px 50px;
     
    
 }
@@ -253,14 +251,14 @@ canvas{
 
 .card-menu{
     border-radius: 20px;
-    background-color: rgb(34, 37, 39);
+    background-color: rgb(12, 12, 12);
 }
 
 .texto-produtos{
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px 20px 0 0;
-    background-color: rgb(56, 52, 59);
+    background-color: rgb(30, 29, 31);
     text-align: center;
     color: aliceblue;
     font-size: 25px;
@@ -300,15 +298,15 @@ canvas{
     }
     .cadeira-ar{
         width: 100%;
-        height: 600px;
+        height: 550px;
         
         margin: auto;
     }
   
    
     .bloco-ar2{
-        width: 400px;
-        height: 300px;
+        width: 550px;
+        height: 350px;
     }
     .bloco-ar2 img{
         width: 100%;
@@ -320,7 +318,7 @@ canvas{
     }
     .view-ar{
        
-        margin: auto;
+       
         position: relative;
     }
     .view-ar h1{
@@ -331,9 +329,9 @@ canvas{
         text-align: left;
     }
     .view-link{
-        width: 150px;
+        
         padding: 10px;
-        margin-top: 20px;
+       
     }
     .slide-menu{
         flex-direction: column;
@@ -381,7 +379,7 @@ canvas{
         width: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
-        background-color: rebeccapurple;
+        background-color: rgb(10, 10, 10);
     }
 }
 
