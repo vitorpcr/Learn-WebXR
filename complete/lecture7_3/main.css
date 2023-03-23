@@ -9,7 +9,7 @@
 .segunda{
     width: 100%;
     background-color: rgb(38, 38, 44);
-    height: 112.4vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -18,12 +18,26 @@
 }
 
 
-.bloco{
-    background-color: transparent;
-    position: relative;
-    width: 50%;
-    height: 60%;
+.bloco{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;
     
+}
+.bloco-texto{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+.bloco-img{
+    width: 900px;
+    height: 100%;
+    background-color: green;
+}
+.bloco-texto, .bloco-img{
+    margin: 20px;
 }
 
 .tittle{
@@ -57,16 +71,7 @@
     color: aliceblue;
 }
 
-video{
-    
-    overflow-x: hidden;
-    position: absolute;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    background-color: rgb(80, 73, 73);
-    opacity: 80%;
-}
+
 
 
 
