@@ -30,10 +30,6 @@ body {
   line-height: 1.6;
 }
 
-a {
-  color: hsl(65, 80%, 60%);
-  text-decoration: none;
-}
 
 a:hover,
 a:focus {
@@ -41,6 +37,7 @@ a:focus {
 }
 
 .page-title {
+    margin-top: 150px;
   text-align: center;
 }
 
@@ -54,12 +51,6 @@ a:focus {
   animation-duration: 3.9s;
 }
 
-.header1,
-.footer {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-}
 
 .section {
   transform-origin: center top;
@@ -88,9 +79,9 @@ a:focus {
   position: relative;
   margin: -50vh auto 0;
   padding: var(--space);
-  max-width: 55ch;
+  max-width: 80ch;
   width: calc(100% - var(--space));
-  background: hsla(5, 15%, 5%, 0.9);
+  background: hsla(244, 49%, 45%, 0.9);
 }
 
 .content > * + * {
@@ -114,6 +105,8 @@ a:focus {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 .image-container::after {
   content: "";
@@ -217,16 +210,17 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: rgb(233, 233, 233);
-    height: 70vh;
+    background-color: rgb(233, 233, 233);
+    height: 80vh;
 }
 .bloco-vendas{
     
     
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
 }
 .bloco-vendas h1{
+    
     text-align: center;
 }
 .menu-vendas{
@@ -237,19 +231,53 @@ a:focus {
     align-items: center;
     
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 .mv1{
     border-radius: 15px;
     background-color: black;
     height: 100%;
-    width: 600px;
+    width: 700px;
     margin-right: 50px;
     margin-left: 50px;
     
 }
+.container-vd{
+    height: 80vh;
+}
 
+.block{
+    height: 100%;
+    background-color: rgb(107, 160, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-vd{
+    background-color: rgb(151, 151, 84);
+    width: 900px;
+    height: 90%;
+}
 
+.block-tx{
+    margin: auto;
+    background-color: aliceblue;
+    width: 600px;
+    
+}
+.block-vd, .block-tx{
+    margin: 30px;
+}
+
+.menu{
+    background-color: red;
+    width: 90%;
+    height: 180px;
+}
+
+.row, .menu{
+    margin: 30px;
+}
 
 
 
