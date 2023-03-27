@@ -28,8 +28,16 @@
 
 .cd{
     background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     margin: 20px;
+}
+.cd .row{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(83, 127, 165);
 }
 
 body {
@@ -190,12 +198,6 @@ a:focus {
 }
 
 
-
-
-
-
-
-
 .header{
     background-color: rgb(8, 7, 7);
     
@@ -206,53 +208,9 @@ a:focus {
     background-color: transparent;
 }
 
-.cadeira-ar{
-      
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    margin-top: 150px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-.vendas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(233, 233, 233);
-    height: 80vh;
-}
-.bloco-vendas{
-    
-    
-    height: 80%;
-    width: 100%;
-}
-.bloco-vendas h1{
-    
-    text-align: center;
-}
-.menu-vendas{
-    
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    height: 400px;
-}
-.mv1{
-    border-radius: 15px;
-    background-color: black;
-    height: 100%;
-    width: 500px;
-    margin-right: 50px;
-    margin-left: 50px;
-    
-}
+
+
+
 .container-vd{
     height: 80vh;
 }
