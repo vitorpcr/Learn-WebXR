@@ -22,7 +22,7 @@
 }
 
 .container .produtos{
-    height: 90vh;
+   
     background-color: red;
 }
 
@@ -228,7 +228,7 @@ a:focus {
     
     
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
 .bloco-vendas h1{
     
@@ -248,7 +248,7 @@ a:focus {
     border-radius: 15px;
     background-color: black;
     height: 100%;
-    width: 700px;
+    width: 500px;
     margin-right: 50px;
     margin-left: 50px;
     
@@ -274,6 +274,7 @@ a:focus {
     margin: auto;
     background-color: aliceblue;
     width: 600px;
+    height: 90%;
     
 }
 .block-vd, .block-tx{
@@ -282,8 +283,8 @@ a:focus {
 
 .menu{
     background-color: red;
-    width: 90%;
-    height: 180px;
+    
+    height: 25%;
 }
 
 .row, .menu{
