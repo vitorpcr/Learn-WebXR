@@ -179,18 +179,25 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 80%;
     height: 90%;
     
 }
 .bloco-texto{
-    background-color: blue;
-    width: 500px;
-    height: 500px;
+    
+    width: 350px;
+    height: 300px;
+}
+.bloco-texto a{
+    margin-left: 50px;
+}
+.bloco-texto img{
+    width: 100%;
+    height: 100%;
 }
 .bloco-img{
-    width: 1000px;
-    height: 70%;
+    width: 800px;
+    height: 60%;
     
 }
 .bloco-img img{
