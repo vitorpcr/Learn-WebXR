@@ -237,10 +237,13 @@ background: linear-gradient(90deg, rgba(15,14,17,1) 0%, rgba(35,31,119,1) 30%, r
     align-items: center;
 }
 .block-vd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(5, 5, 5);
     border-radius: 15px;
-    width: 900px;
-    height: 480px;
+    width: 800px;
+    height: auto;
 }
 video{
     
@@ -248,10 +251,10 @@ video{
     height: 100%;
 }
 .block-tx{
-    margin: auto;
-   
-    width: 600px;
-    height: 90%;
+    display: inline-block;
+ 
+    
+    height: 600px;
     
 }
 .block-vd, .block-tx{
@@ -259,9 +262,10 @@ video{
 }
 
 .menu{
-    background-color: rgb(54, 37, 129);
     border-radius: 15px;
-    height: 25%;
+    background-color: rgb(54, 37, 129);
+    height: 160px;
+    
 }
 .menu img{
     
@@ -377,7 +381,10 @@ video{
 
 
 .margin{
-    margin-top: 100px;
+    height: 200vh;
+    background: rgb(15,14,17);
+    background: linear-gradient(90deg, rgba(15,14,17,1) 0%, rgba(35,31,119,1) 30%, rgba(29,105,124,1) 100%);
+    
 }
 
 
@@ -390,6 +397,7 @@ video{
     
     margin: 30px 50px 30px 50px;
     
+    
    
 }
 .menu-blocks a, p, h5{
@@ -398,14 +406,14 @@ video{
 
 .card-menu{
     border-radius: 20px;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
 }
 
 .texto-produtos{
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px 20px 0 0;
-    background-color: rgb(30, 29, 31);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: aliceblue;
     font-size: 25px;
